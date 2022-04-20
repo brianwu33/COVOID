@@ -16,7 +16,7 @@ function encodeQueryData(data) {
 }
 
 app.get("/", (req, res) => {
-    res.send("hello")
+    res.send("Express is Connected")
 })
 
 app.post("/locations", async (req, res) => {
@@ -99,6 +99,17 @@ app.post("/locations", async (req, res) => {
 
     console.log(response);
     res.json(response);
+})
+
+
+app.post("/test", (req, res) => {
+    let request = req.body;
+    let address = request.address;
+    let maxRadius = request.maxRadius;
+    let location = request.location;
+
+
+
 })
 
 app.listen(3001, () => {
