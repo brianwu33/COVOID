@@ -1,0 +1,123 @@
+{
+    margin: 0;
+    padding: 0;
+}
+.pink {
+    position: absolute;
+    background-color: #FA3D3D;
+    width: 34.3%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+    .pink h1 {
+        position: absolute;
+        width: 387px;
+        height: 108px;
+        left: 32px;
+        top: 39px;
+        font-family: Inter;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 48px;
+        color: #000000;
+    }
+    .pink h2 {
+        position: absolute;
+        width: 324px;
+        height: 114px;
+        left: 63px;
+        top: 878px;
+        font-family: Inter;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+    }
+
+.white {
+    position: absolute;
+    width: 25vw;
+    height: 25vh;
+    left: 50vw;
+    top: 40vh;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 3vh;
+    color: #000000;
+    margin-left: 15vw;
+}
+.line {
+    background-color:black;
+    position: absolute;
+    width: 20vw;
+    height: 0%;
+    left: 40vw;
+    top: 15vh;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+    z-index: 11;
+    margin-left: 10vw;
+    margin-top: 34vh;
+}
+.button {
+    position: absolute;
+    width: 10vw;
+    height: 5vh;
+    left: 65vw;
+    top: 60vh;
+    background: #FA3D3D;
+}
+
+.button {
+    border: none;
+    color: white;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    background: #FA3D3D;
+    border-radius: 25px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 3vh;
+    font-size: 3vh;
+
+}
+/* @media screen and (min-width: 50%) {
+    .button {
+      font-size: 30px auto;
+    }
+  }
+@media screen and (max-width: 50%) {
+    .button {
+      font-size: 15px auto;
+    }
+  } */
+
+
+.image {
+    
+    /* left: calc(35% - 710px/2);
+    top: -46px; */
+    /* margin-right: 600px; */
+    z-index: 9;
+    
+}
+
+img {
+    position: absolute;
+    width: 35%;
+    height: auto;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+    top: 18vh;
+    left: 12vw;
+}
+
+
+

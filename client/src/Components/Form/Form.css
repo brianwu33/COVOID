@@ -1,0 +1,33 @@
+#homepage {
+    position: absolute;
+    width: 894px;
+    height: 33px;
+    font-family: Permanent Marker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.formContainer {
+    position: absolute;
+    left: 45vw;
+    top: 25vh;
+    /* margin: 30%; */
+    margin-right: 5vw;
+    /* width: 40vw;
+    height: 10vh; */
+}
+
+.image {
+    position: absolute;
+    width: 710px;
+    height: 547px;
+    left: calc(35% - 710px/2);
+    top: -46px;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+    z-index: 9;
+}

@@ -1,0 +1,28 @@
+.nameColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addressColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.closestFiveColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.resultContainer {
+    position: absolute;
+    left: 45vw;
+    top: 25vh;
+    display: flex;
+    flex-direction: row;
+}
